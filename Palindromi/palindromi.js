@@ -11,3 +11,10 @@ function isWord(word) {
   // confronto le parole
   return lowerWord === reverseWord;
 }
+
+// Controllo se la parola è palindroma
+if (isWord(wordUser)) {
+  alert(`${wordUser}: la parola è palindroma`);
+} else {
+  alert(`${wordUser}: la parola non è palindroma`);
+}
