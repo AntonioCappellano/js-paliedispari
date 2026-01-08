@@ -6,4 +6,6 @@ const wordUser = prompt("Inserisci una parola");
 function isWord(word) {
   // rendo tutte le parole inserire minuscole
   const lowerWord = word.toLowerCase();
+  // inverto le parole inserite
+  const reverseWord = lowerWord.split("").reverse().join("");
 }
