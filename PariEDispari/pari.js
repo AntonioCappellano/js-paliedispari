@@ -12,3 +12,10 @@ function generateNumberRandom(min, max) {
   const randomNumber = Math.floor(Math.random() * (max - min + 1) + min);
   return randomNumber;
 }
+
+// scrivo una funzione che mi dice se il numero dell'utente è pari
+
+function isNumberEven(num) {
+  const isEven = num % 2 === 0;
+  return isEven;
+}
