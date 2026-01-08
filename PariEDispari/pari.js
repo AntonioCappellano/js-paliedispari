@@ -23,3 +23,17 @@ function isNumberEven(num) {
 // genero il numero scelto dal computer
 
 const numPc = generateNumberRandom(1, 5);
+
+// sommo i due numeri
+
+const sum = numUser + numPc;
+
+const result = isNumberEven(sum);
+
+// dichiaro chi ha vinto
+
+if (choiceUser === result) {
+  console.log("Hai vinto");
+} else {
+  console.log("Hai perso");
+}
