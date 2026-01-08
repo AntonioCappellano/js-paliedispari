@@ -8,4 +8,6 @@ function isWord(word) {
   const lowerWord = word.toLowerCase();
   // inverto le parole inserite
   const reverseWord = lowerWord.split("").reverse().join("");
+  // confronto le parole
+  return lowerWord === reverseWord;
 }
