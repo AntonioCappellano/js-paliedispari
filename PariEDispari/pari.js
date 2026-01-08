@@ -19,3 +19,7 @@ function isNumberEven(num) {
   const isEven = num % 2 === 0;
   return isEven;
 }
+
+// genero il numero scelto dal computer
+
+const numPc = generateNumberRandom(1, 5);
